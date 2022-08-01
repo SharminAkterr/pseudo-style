@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="home" href="home.html">Home<ul class="option">
+                            <li><a href="">link 1</a></li>
+                            <li><a href="">link 2</a></li>
+                            <li><a href="">link 3</a></li>
+                            <li><a href="">link 4</a></li>
+                        </ul>
+                    </a></li>
+                <li><a href="nav.html">pseudo-style</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="about.html">About US</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <p>Name: <input type="text" name="name" id="" placeholder="Name"></p>
+            <p>Email: <input type="email" name="email" id="" placeholder="Enter your email address"></p>
+            <p>Pass: <input type="password" name="password" id="" placeholder="Password"></p>
+            <fieldset>
+                <legend>Select your Pitha</legend>
+                <p>
+                    <label for="chitoy"><input type="radio" name="Pitha" id="chitoy">Chitoy</label>
+                </p>
+                <p>
+                    <label for="Vapa"><input type="radio" name="Pitha" id="Vapa">Vapa</label>
+                </p>
+                <p>
+                    <label for="Patishapta"><input type="radio" name="Pitha" id="Patishapta">Patishapta</label>
+                </p>
+                <p>
+                    <label for="Tel er Pitha"><input type="radio" name="tel" id="Tel er Pitha">Tel er
+                        Pitha(name alada disi tai 2ta select kora jacche)</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Select your vorta</legend>
+                <p>
+                    <label for="Begun"><input type="checkbox" name="vorta" id="Begun">Begun</label>
+                </p>
+                <p>
+                    <label for="Shutki"><input type="checkbox" name="vorta" id="Shutki">Shutki</label>
+                </p>
+                <p>
+                    <label for="Morich"><input type="checkbox" name="vorta" id="Morich">Morich</label>
+                </p>
+            </fieldset>
+            <p>Special Instruction <br>
+                <textarea name="instruction" id="" cols="150" rows="2"></textarea>
+            </p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+</body>
+
+</html>

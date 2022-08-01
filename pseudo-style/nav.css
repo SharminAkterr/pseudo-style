@@ -1,0 +1,38 @@
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: salmon;
+    padding: 0 10px;
+
+}
+
+nav li a:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.option {
+    display: none;
+    position: absolute;
+
+}
+
+.option a {
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+
+}
